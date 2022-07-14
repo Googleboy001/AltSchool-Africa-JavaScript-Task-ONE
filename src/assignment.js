@@ -31,14 +31,14 @@ const assignment = {};
  * @param {Array} arrayOfNumbers the array containing even or non-even numbers
  * @returns number the count of even numbers
  */
-let num= []
+let number= []
 function countEvenNumbers(arrayOfNumbers) {
 for(let i=0; i < arrayOfNumbers.length; i++){
 if(arrayOfNumbers[i] % 2 == 0) {
-num.push(arrayOfNumbers[i]);
+number.push(arrayOfNumbers[i]);
 };
 };
-return num.length;
+return number.length;
 }
  assignment.countEvenNumbers = countEvenNumbers;
 
