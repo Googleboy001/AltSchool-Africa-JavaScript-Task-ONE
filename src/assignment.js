@@ -32,15 +32,15 @@ function sumOfNumbers(arrayOfNumbers) {
  * @param {Array} arrayOfNumbers the array containing even or non-even numbers
  * @returns number the count of even numbers
  */
-let nos= []
+let num= []
 function countEvenNumbers(arrayOfNumbers) {
 for(let i=0; i < arrayOfNumbers.length; i++){
 if(arrayOfNumbers[i] % 2 == 0) {
-nos.push(arrayOfNumbers[i]);
+num.push(arrayOfNumbers[i]);
     return arrayOfNumbers.length;
 };
 };
-return nos.length;
+return num.length;
 }
  assignment.countEvenNumbers = countEvenNumbers;
 
